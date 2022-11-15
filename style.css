@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first{
+    color: black;
+    padding: 30px 40px;
+    justify-items: flex-start;
+    display: block;
+    background-color: yellowgreen;
+    margin: 30px 20px;
+    transition: all ease-in-out 4s;
+    animation-name: first;
+}
+.second{
+    color: red;
+    padding: 30px 40px;
+    margin: 30px 20px;
+    background-color: rgb(39, 11, 2);
+    transition: all ease-in-out 8s;
+}
+.third{
+    color: green;
+    padding: 30px 40px;
+    justify-items: flex-end;
+    display: block;
+    background-color: rgb(8, 36, 4);
+    margin: 30px 20px;
+    transition: all ease-in-out 12s;
+}
